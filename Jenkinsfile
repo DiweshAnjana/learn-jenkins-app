@@ -25,11 +25,12 @@ pipeline {
             steps{
     sh'''
    echo  "Testing "
+   
    '''
             }
          
 
-         '''
+        
         }
     }
 }
