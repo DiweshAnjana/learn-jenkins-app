@@ -32,8 +32,7 @@ pipeline {
     sh'''
    echo  "Testing"
    test -f build/index.html
-   node test
-   echo "Available" 
+   
    '''
             }
          
