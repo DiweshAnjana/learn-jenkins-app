@@ -30,7 +30,7 @@ pipeline {
             }
             steps{
     sh'''
-   echo  "Testing "
+   echo  "Testing"
    test -f build/index.html
    node test
    echo "Available" 
